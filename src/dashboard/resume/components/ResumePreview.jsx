@@ -1,10 +1,13 @@
 import React, { useContext } from 'react';
 import { ResumeInfoContext } from '../../../context/ResumeInfoContext';
-import PersonalDetailPreview from './preview/PersonalDetailPreview';
-import SummeryPreview from './preview/summeryPreview';
-import ExperiencePreview from './preview/ExperiencePreview';
-import EducationalPreview from './preview/EducationalPreview';
-import SkillsPreview from './preview/SkillsPreview';
+import EducationalPreview from "./preview/EducationalPreview";
+import ExperiencePreview from "./preview/ExperiencePreview";
+import PersonalDetailPreview from "./preview/PersonalDetailPreview";
+import SkillsPreview from "./preview/SkillsPreview";
+import SummeryPreview from "./preview/SummeryPreview";
+
+
+
 
 function ResumePreview() {
   const { resumeInfo, setResumeInfo } = useContext(ResumeInfoContext);
