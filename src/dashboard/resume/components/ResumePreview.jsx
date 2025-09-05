@@ -9,6 +9,8 @@ import SummeryPreview from "./preview/SummeryPreview";
 
 
 
+
+
 function ResumePreview() {
   const { resumeInfo, setResumeInfo } = useContext(ResumeInfoContext);
 

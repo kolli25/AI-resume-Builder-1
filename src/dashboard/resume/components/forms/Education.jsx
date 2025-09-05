@@ -22,7 +22,7 @@ function Education() {
     }
   ]);
 
-  // ✅ Safely populate data from context
+ 
   useEffect(() => {
     if (Array.isArray(resumeInfo?.education) && resumeInfo.education.length > 0) {
       setEducationalList(resumeInfo.education);
@@ -78,7 +78,7 @@ function Education() {
     );
   };
 
-  // ✅ Sync updated list to context
+
   useEffect(() => {
     if (resumeInfo) {
       setResumeInfo({
